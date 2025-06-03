@@ -4,7 +4,7 @@ require("dotenv/config")
 
 try
 {
-    const uri = "mongodb+srv://usuario:senha@aulaescobar.i6snz.mongodb.net/API"
+    const uri = "link_mongodb"
     mongoose.connect(uri)
 }
 catch (err)
